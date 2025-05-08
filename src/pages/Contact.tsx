@@ -22,14 +22,26 @@ const Contact = () => {
           </p>
           
           <div className="flex flex-col md:flex-row gap-4 mt-6">
-            <Button variant="default" className="flex items-center gap-2">
-              <Mail size={18} />
-              <span>Email Us</span>
+            <Button
+              variant="default"
+              className="flex items-center gap-2"
+              asChild
+            >
+              <a href="mailto:info@louthcivictrust.org">
+                <Mail size={18} />
+                <span>Email Us</span>
+              </a>
             </Button>
             
-            <Button variant="outline" className="flex items-center gap-2">
-              <Phone size={18} />
-              <span>Call: 07958 453 636</span>
+            <Button
+              variant="outline"
+              className="flex items-center gap-2"
+              asChild
+            >
+              <a href="tel:07958453636">
+                <Phone size={18} />
+                <span>Call: 07958 453 636</span>
+              </a>
             </Button>
           </div>
         </div>
