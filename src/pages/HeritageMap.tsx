@@ -3,11 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Section from '../components/Section';
-import { Button } from "@/components/ui/button";
 import { ExternalLink, MapPin, Building } from "lucide-react";
-
-// Map placeholder images (these would be replaced with actual maps)
-import historicEnglandMapImage from '../assets/historic-england-map.png';
 
 const HeritageMap = () => {
   return (
@@ -36,13 +32,6 @@ const HeritageMap = () => {
               title="Louth Interactive Heritage Map"
               className="w-full h-full"
             ></iframe>
-          </div>
-          
-          <div className="flex justify-center mt-6">
-            <Button className="flex items-center gap-2">
-              <MapPin size={18} />
-              Add to the map
-            </Button>
           </div>
         </div>
       </Section>
@@ -78,13 +67,13 @@ const HeritageMap = () => {
       <Section title="LOUTH LISTED BUILDINGS" className="bg-white">
         <div className="space-y-6">
           <p>
-            A <a href="https://historicengland.org.uk/listing/the-list/results/?searchType=NHLE+Simple&search=louth" target="_blank" rel="noopener noreferrer" className="font-medium">map of listed buildings in Louth</a> can be found on an 
+            A <a href="https://historicengland.org.uk/listing/the-list/map-search?clearresults=true" target="_blank" rel="noopener noreferrer" className="font-medium">map of listed buildings in Louth</a> can be found on an 
             interactive map hosted by Historic England. Click on the map below to be taken to 
             Historic England's map where you search for Louth.
           </p>
           
           <a 
-            href="https://historicengland.org.uk/listing/the-list/results/?searchType=NHLE+Simple&search=louth" 
+            href="https://historicengland.org.uk/listing/the-list/map-search?clearresults=true" 
             target="_blank" 
             rel="noopener noreferrer"
             className="block w-full rounded-lg overflow-hidden border shadow-md hover:shadow-lg transition-shadow"
