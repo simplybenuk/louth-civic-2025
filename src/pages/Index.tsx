@@ -30,10 +30,6 @@ const Index = () => {
             All this together with a wide range of facilities and attractions make Louth a desirable 
             place to live, work and visit.
           </p>
-          <p className="font-bold">
-            For more information on Louth's architectural heritage view 'Discover the places and spaces 
-            below Louth's Skyline' <Link to="/publications">publications page</Link>.
-          </p>
         </div>
       </Section>
       
