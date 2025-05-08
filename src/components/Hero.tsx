@@ -1,6 +1,6 @@
 
 import React from 'react';
-import townImages from '../assets/town-images.png';
+import louthImage from '../assets/Louth_01.jpg';
 
 interface HeroProps {
   title: string;
@@ -24,12 +24,12 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle }) => {
           
           <div className="overflow-hidden rounded-lg shadow-lg max-w-3xl w-full">
             <img 
-              src={townImages} 
-              alt="Historic buildings of Louth" 
+              src={louthImage} 
+              alt="Historic view of Louth" 
               className="w-full h-auto"
             />
             <div className="p-4 bg-white text-center text-sm italic">
-              War Memorial (left), Almshouses (right) by Peter Duke
+              Historic view of Louth
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
-import logo from '../assets/louth-logo.png';
+import logo from '../assets/louth-civic-trust-logo.png';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
