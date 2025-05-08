@@ -11,8 +11,6 @@ const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT US', path: '/about' },
     { name: 'GET INVOLVED', path: '/get-involved' },
-    { name: 'NEWS', path: '/news' },
-    { name: 'EVENTS', path: '/events' },
     { name: 'CONTACT & LINKS', path: '/contact' },
   ];
 
