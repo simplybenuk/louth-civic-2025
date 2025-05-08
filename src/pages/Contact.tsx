@@ -35,7 +35,7 @@ const Contact = () => {
         </div>
       </Section>
       
-      <Section title="COUNCIL MEMBERS" className="bg-lct-gray">
+      <Section title="TRUSTEES" className="bg-lct-gray">
         <div className="overflow-x-auto">
           <Table>
             <TableBody>
@@ -52,36 +52,20 @@ const Contact = () => {
                 <TableCell>Mary Abbott</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="font-medium">Treasurer & Membership Secretary</TableCell>
-                <TableCell>Bridget Clark</TableCell>
+                <TableCell className="font-medium">Treasurer</TableCell>
+                <TableCell>Peter Hickman</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell className="font-medium">Membership Secretary</TableCell>
+                <TableCell>Jim Judge</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">Planning Chair</TableCell>
                 <TableCell>Ian Trowsdale</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell className="font-medium">Minutes Secretary</TableCell>
-                <TableCell>Barbara Dales</TableCell>
-              </TableRow>
-              <TableRow>
                 <TableCell className="font-medium">Secretary</TableCell>
-                <TableCell>Joanne Brogden</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className="font-medium">Digital & Website</TableCell>
-                <TableCell>Ben Heap</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell className="font-medium">Members</TableCell>
-                <TableCell>
-                  <div className="flex flex-col space-y-1">
-                    <span>Russell Howard</span>
-                    <span>Jean Howard</span>
-                    <span>Pat Harrison</span>
-                    <span>Cynthia Sellick</span>
-                    <span>Paula French</span>
-                  </div>
-                </TableCell>
+                <TableCell>Paula French</TableCell>
               </TableRow>
             </TableBody>
           </Table>
