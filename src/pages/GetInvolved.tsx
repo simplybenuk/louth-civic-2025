@@ -96,8 +96,13 @@ const GetInvolved = () => {
           </div>
           
           <div className="mt-6">
-            <Button variant="default">
-              Contact Membership Secretary
+            <Button 
+              variant="default"
+              asChild
+            >
+              <a href="mailto:info@louthcivictrust.org?subject=FAO%20Membership%20Secretary">
+                Contact Membership Secretary
+              </a>
             </Button>
           </div>
         </div>
@@ -117,8 +122,13 @@ const GetInvolved = () => {
           </div>
           
           <div className="mt-6">
-            <Button variant="default">
-              Contact the Chairman
+            <Button 
+              variant="default"
+              asChild
+            >
+              <a href="mailto:info@louthcivictrust.org?subject=FAO%20Chairman">
+                Contact the Chairman
+              </a>
             </Button>
           </div>
         </div>
