@@ -29,7 +29,6 @@ const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
                   isActive ? 'bg-white bg-opacity-20 font-bold' : ''
                 }`
               }
-              aria-current={({ isActive }) => isActive ? 'page' : undefined}
             >
               {item.name}
             </NavLink>
