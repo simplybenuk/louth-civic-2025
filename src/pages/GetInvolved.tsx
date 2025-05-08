@@ -3,6 +3,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Section from '../components/Section';
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Users, HandCoins, Mail, Calendar } from "lucide-react";
 
 const GetInvolved = () => {
   return (
@@ -12,85 +15,111 @@ const GetInvolved = () => {
         subtitle="Join us in preserving and enhancing the unique character of Louth"
       />
       
-      <Section title="BECOME A MEMBER" className="bg-white">
+      <Section title="THE LOUTH CIVIC TRUST COUNCIL" className="bg-white">
         <div className="space-y-6">
           <p>
-            By becoming a member of Louth Civic Trust, you are supporting our work to preserve and 
-            enhance the unique character of Louth. Members receive regular newsletters, invitations to 
-            events, and the opportunity to have a say in the future of Louth.
+            The Louth Civic Trust has a council who meet monthly with sub-committees looking at 
+            issues and projects such as Planning Applications, Events and Schools Liaison.
           </p>
-          <p>
-            Membership benefits include:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Quarterly newsletters keeping you informed about our activities</li>
-            <li>Invitations to talks, visits and social events</li>
-            <li>Opportunity to contribute to the protection of Louth's heritage</li>
-            <li>A voice in decisions affecting the future of Louth</li>
-          </ul>
-          <p className="font-bold">
-            Annual membership fees:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Individual: £15</li>
-            <li>Couple/Household: £20</li>
-            <li>Corporate: £50</li>
-          </ul>
-          <div className="mt-8 space-y-4">
-            <p>
-              To join, please contact our Membership Secretary or download the membership form below.
+          <div className="flex items-center space-x-3 mt-4">
+            <Calendar className="text-lct-blue" />
+            <p className="font-medium">
+              An AGM meeting takes place each April and all members are invited to hear about the 
+              on-going campaigns with speakers addressing local or national issues.
             </p>
-            <button className="btn btn-primary">
-              Download Membership Form
-            </button>
           </div>
         </div>
       </Section>
       
-      <Section title="VOLUNTEER" className="bg-lct-gray">
+      <Section title="BECOME A MEMBER" className="bg-lct-gray">
         <div className="space-y-6">
-          <p>
-            Volunteers are essential to the work of Louth Civic Trust. There are many ways you can 
-            help, from serving on the committee to helping with events or researching local history.
-          </p>
-          <p>
-            Ways you can volunteer:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Join the committee</li>
-            <li>Help organize events</li>
-            <li>Assist with research projects</li>
-            <li>Contribute to our newsletter</li>
-            <li>Represent the Trust at local events</li>
-          </ul>
-          <p>
-            Whatever your skills and interests, there is likely to be a role for you in Louth Civic Trust.
-          </p>
-          <div className="mt-8">
-            <button className="btn btn-primary">
-              Contact Us About Volunteering
-            </button>
+          <div className="flex items-start gap-4">
+            <Users className="text-lct-blue mt-1" />
+            <div>
+              <p className="mb-4">
+                The work of the Trust is funded through membership subscription. By becoming a member 
+                you can become part of our campaign to maintain the unique historical identity of Louth's 
+                living and working environment.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Individual Membership</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-xl font-bold text-lct-blue">£13.00 per year</p>
+              </CardContent>
+            </Card>
+            
+            <Card>
+              <CardHeader>
+                <CardTitle>Joint Membership</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-xl font-bold text-lct-blue">£18.00 per year</p>
+              </CardContent>
+            </Card>
+            
+            <Card>
+              <CardHeader>
+                <CardTitle>Junior Membership</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-xl font-bold text-lct-blue">£5.00 per year</p>
+              </CardContent>
+            </Card>
+          </div>
+          
+          <div className="mt-6 p-4 bg-white rounded-lg">
+            <p>
+              As a member you will also receive regular newsletters by post or by email 
+              and invitations to Louth Civic Trust events and automatically gain membership 
+              to the national organisation Civic Voice.
+            </p>
+          </div>
+          
+          <div className="flex items-center space-x-3 mt-6">
+            <HandCoins className="text-lct-blue" />
+            <p>
+              Donations are always welcome even if you do not want to become a member.
+            </p>
+          </div>
+          
+          <div className="flex items-center space-x-3 mt-4">
+            <Mail className="text-lct-blue" />
+            <p>
+              For more information email the Membership Secretary for an application form.
+            </p>
+          </div>
+          
+          <div className="mt-6">
+            <Button variant="default">
+              Contact Membership Secretary
+            </Button>
           </div>
         </div>
       </Section>
       
-      <Section title="MAKE A DONATION" className="bg-white">
+      <Section title="JOIN THE COMMITTEE" className="bg-white">
         <div className="space-y-6">
-          <p>
-            Your donations help us to continue our work preserving and enhancing the unique character 
-            of Louth. As a registered charity, all donations are gratefully received and will be used 
-            to support our activities.
-          </p>
-          <p>
-            You can make a one-off donation or set up a regular payment to support our work.
-          </p>
-          <div className="mt-8 space-y-4">
-            <p>
-              For information on how to donate, please contact our Treasurer.
-            </p>
-            <button className="btn btn-primary">
-              Contact Treasurer
-            </button>
+          <div className="flex items-start gap-4">
+            <Users className="text-lct-blue mt-1" />
+            <div>
+              <p>
+                The Trust is always looking for interested members to help them with the overall 
+                management of its campaigning and other activities or if you would like to get 
+                involved in a particular project then email our Chairman or call him on 07958 453 636
+              </p>
+            </div>
+          </div>
+          
+          <div className="mt-6">
+            <Button variant="default">
+              Contact the Chairman
+            </Button>
           </div>
         </div>
       </Section>
