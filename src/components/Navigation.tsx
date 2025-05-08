@@ -10,6 +10,7 @@ const Navigation: React.FC<NavigationProps> = ({ closeMenu }) => {
   const navItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT US', path: '/about' },
+    { name: 'HERITAGE MAP', path: '/heritage-map' },
     { name: 'GET INVOLVED', path: '/get-involved' },
     { name: 'CONTACT & LINKS', path: '/contact' },
   ];
