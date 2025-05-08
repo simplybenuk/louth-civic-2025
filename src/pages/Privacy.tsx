@@ -14,28 +14,87 @@ const Privacy = () => {
       
       <Section title="PRIVACY POLICY" className="bg-white">
         <div className="prose max-w-none">
+          <h3 className="text-xl font-bold mt-6 mb-3">Who we are</h3>
+          <p>Our website address is: http://louthcivictrust.org/</p>
+          
+          <h3 className="text-xl font-bold mt-6 mb-3">What personal data we collect and why we collect it</h3>
+          
+          <h4 className="text-lg font-semibold mt-5 mb-2">Comments</h4>
           <p>
-            Your privacy is important to us. It is Louth Civic Trust's policy to respect your privacy regarding any information we may collect while operating our website. We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties.
+            When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor's IP address and browser user agent string to help spam detection.
+          </p>
+          <p>
+            An anonymised string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service Privacy Policy is available here: <a href="https://automattic.com/privacy/" className="text-lct-blue hover:underline">https://automattic.com/privacy/</a>. After approval of your comment, your profile picture is visible to the public in the context of your comment.
           </p>
           
+          <h4 className="text-lg font-semibold mt-5 mb-2">Media</h4>
           <p>
-            This Privacy Policy applies only to information we collect through the Website and does not apply to our collection of information from other sources.
+            If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
           </p>
           
-          <h3 className="text-xl font-bold mt-6 mb-3">Website Visitors</h3>
+          <h4 className="text-lg font-semibold mt-5 mb-2">Contact forms</h4>
+          
+          <h4 className="text-lg font-semibold mt-5 mb-2">Cookies</h4>
           <p>
-            Like most website operators, Louth Civic Trust collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Louth Civic Trust's purpose in collecting non-personally identifying information is to better understand how Louth Civic Trust's visitors use its website.
+            If you leave a comment on our site you may opt in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+          </p>
+          <p>
+            If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
+          </p>
+          <p>
+            When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select "Remember Me", your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+          </p>
+          <p>
+            If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
           </p>
           
-          <h3 className="text-xl font-bold mt-6 mb-3">Cookies</h3>
+          <h4 className="text-lg font-semibold mt-5 mb-2">Embedded content from other websites</h4>
           <p>
-            Our website may use "cookies" to enhance user experience. A cookie is a small piece of data that is stored on your computer by your web browser while you are viewing a website. Cookies can help a website remember your preferences and improve your user experience. You can choose to set your browser to reject cookies, or to alert you when cookies are being sent. If you do so, note that some parts of our website may not function properly.
+            Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+          </p>
+          <p>
+            These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
           </p>
           
-          <h3 className="text-xl font-bold mt-6 mb-3">Contact Information</h3>
+          <h4 className="text-lg font-semibold mt-5 mb-2">Analytics</h4>
+          
+          <h3 className="text-xl font-bold mt-6 mb-3">Who we share your data with</h3>
+          <p>
+            We use Google Analytics to monitor our website performance so we can make our website better.
+          </p>
+          <p>
+            We also use Mailchimp as our newsletter service.
+          </p>
+          
+          <h3 className="text-xl font-bold mt-6 mb-3">How long we retain your data</h3>
+          <p>
+            If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognise and approve any follow-up comments automatically instead of holding them in a moderation queue.
+          </p>
+          <p>
+            For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
+          </p>
+          
+          <h3 className="text-xl font-bold mt-6 mb-3">What rights you have over your data</h3>
+          <p>
+            If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+          </p>
+          
+          <h3 className="text-xl font-bold mt-6 mb-3">Where we send your data</h3>
+          <p>
+            Visitor comments may be checked through an automated spam detection service.
+          </p>
+          
+          <h3 className="text-xl font-bold mt-6 mb-3">Your contact information</h3>
           <p>
             If you have any questions about this Privacy Policy, please contact us via email at <a href="mailto:info@louthcivictrust.org" className="text-lct-blue hover:underline">info@louthcivictrust.org</a>.
           </p>
+          
+          <h3 className="text-xl font-bold mt-6 mb-3">Additional information</h3>
+          <h4 className="text-lg font-semibold mt-5 mb-2">How we protect your data</h4>
+          <h4 className="text-lg font-semibold mt-5 mb-2">What data breach procedures we have in place</h4>
+          <h4 className="text-lg font-semibold mt-5 mb-2">What third parties we receive data from</h4>
+          <h4 className="text-lg font-semibold mt-5 mb-2">What automated decision making and/or profiling we do with user data</h4>
+          <h4 className="text-lg font-semibold mt-5 mb-2">Industry regulatory disclosure requirements</h4>
         </div>
       </Section>
     </Layout>
