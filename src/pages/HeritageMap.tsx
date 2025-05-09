@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Section from '../components/Section';
 import { ExternalLink, MapPin, Building } from "lucide-react";
+import historicEnglandMap from '../assets/historic-england-map.png';
 
 const HeritageMap = () => {
   return (
@@ -84,9 +85,16 @@ const HeritageMap = () => {
               <ExternalLink size={16} className="ml-auto" />
             </div>
             
-            {/* This would be replaced with the actual Historic England map screenshot */}
-            <div className="w-full aspect-video bg-slate-200 flex items-center justify-center">
-              <p className="text-slate-500">Interactive map of Louth's listed buildings (click to visit Historic England)</p>
+            {/* Replace placeholder with the actual image */}
+            <div className="w-full aspect-video bg-slate-200 relative">
+              <img 
+                src={historicEnglandMap} 
+                alt="Interactive map of Louth's listed buildings" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-20 hover:bg-opacity-30 transition-all">
+                <p className="text-white font-medium px-4 py-2 bg-black bg-opacity-50 rounded">Click to visit Historic England map</p>
+              </div>
             </div>
           </a>
         </div>
