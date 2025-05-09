@@ -47,6 +47,17 @@ const HeritageMap = () => {
             of Hubbard's Hills to the Riverhead. More information can be found here: 
           </p>
           
+          {/* Louth Conservation Area Map */}
+          <div className="w-full rounded-lg border overflow-hidden mb-4">
+            <iframe 
+              src="https://www.google.com/maps/d/embed?mid=1JsYZBSpPsdVCcZTBCzlBPXQb35JVK8fA&ehbc=2E312F" 
+              width="100%" 
+              height="480" 
+              title="Louth Conservation Area Map"
+              className="w-full"
+            ></iframe>
+          </div>
+          
           <div className="flex items-center">
             <a 
               href="https://www.e-lindsey.gov.uk/article/6142/Conservation-Areas" 
