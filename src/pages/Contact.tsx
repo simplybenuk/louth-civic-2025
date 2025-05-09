@@ -91,11 +91,11 @@ const Contact = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.civicvoice.org.uk/" target="_blank" rel="noopener noreferrer">The Civic Voice</a>
+                <a href="http://www.civicvoice.org.uk/" target="_blank" rel="noopener noreferrer">The Civic Voice</a>
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.english-heritage.org.uk/" target="_blank" rel="noopener noreferrer">English Heritage</a>
+                <a href="http://www.english-heritage.org.uk/" target="_blank" rel="noopener noreferrer">English Heritage</a>
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
@@ -103,7 +103,7 @@ const Contact = () => {
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.periodproperty.co.uk/" target="_blank" rel="noopener noreferrer">Period Property UK</a>
+                <a href="http://www.periodproperty.co.uk/" target="_blank" rel="noopener noreferrer">Period Property UK</a>
               </li>
             </ul>
           </div>
@@ -113,23 +113,23 @@ const Contact = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.slha.org.uk/" target="_blank" rel="noopener noreferrer">Society for Lincolnshire History and Archeology</a>
+                <a href="http://www.slha.org.uk/" target="_blank" rel="noopener noreferrer">Society for Lincolnshire History and Archeology</a>
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.htl.org.uk/" target="_blank" rel="noopener noreferrer">Heritage Trust of Lincolnshire</a>
+                <a href="https://www.heritagelincolnshire.org/" target="_blank" rel="noopener noreferrer">Heritage Trust of Lincolnshire</a>
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="#" target="_blank" rel="noopener noreferrer">Horncastle Civic Society</a>
+                <a href="http://www.horncastlecivic.org.uk/" target="_blank" rel="noopener noreferrer">Horncastle Civic Society</a>
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="#" target="_blank" rel="noopener noreferrer">Sleaford Civic Trust</a>
+                <a href="http://www.sleafordcivictrust.btck.co.uk/" target="_blank" rel="noopener noreferrer">Sleaford Civic Trust</a>
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.e-lindsey.gov.uk/article/2066/Listed-Buildings-and-Conservation-Areas" target="_blank" rel="noopener noreferrer">East Lindsey District Council Conservation Dept.</a>
+                <a href="https://www.e-lindsey.gov.uk/article/5115/Conservation" target="_blank" rel="noopener noreferrer">East Lindsey District Council Conservation Dept.</a>
               </li>
             </ul>
           </div>
@@ -139,7 +139,7 @@ const Contact = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.louthleader.co.uk/" target="_blank" rel="noopener noreferrer">Louth Eye</a>
+                <a href="http://www.loutheye.co.uk/index.php" target="_blank" rel="noopener noreferrer">Louth Eye</a>
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
@@ -147,7 +147,7 @@ const Contact = () => {
               </li>
               <li className="flex items-center gap-2">
                 <LinkIcon size={16} className="text-lct-blue" />
-                <a href="https://www.lps1899.co.uk/" target="_blank" rel="noopener noreferrer">Louth Photographic Society</a>
+                <a href="http://www.louthphotographicsociety.co.uk/" target="_blank" rel="noopener noreferrer">Louth Photographic Society</a>
               </li>
             </ul>
           </div>
