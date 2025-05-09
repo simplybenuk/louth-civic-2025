@@ -24,10 +24,10 @@ const HeritageMap = () => {
             take a few days.
           </p>
           
-          {/* Interactive Map Placeholder - would be replaced with actual map implementation */}
+          {/* Interactive Map */}
           <div className="w-full aspect-video bg-slate-200 rounded-lg border overflow-hidden">
             <iframe 
-              src="https://www.google.com/maps/d/embed?mid=1XGhKNDjvQenZuIh-Q_5ekJ77H-8&ehbc=2E312F" 
+              src="https://www.google.com/maps/d/embed?mid=1JsYZBSpPsdVCcZTBCzlBPXQb35JVK8fA&ehbc=2E312F" 
               width="100%" 
               height="100%" 
               title="Louth Interactive Heritage Map"
@@ -46,17 +46,6 @@ const HeritageMap = () => {
             conservation area covers the majority of the historic town, stretching from the foot 
             of Hubbard's Hills to the Riverhead. More information can be found here: 
           </p>
-          
-          {/* Louth Conservation Area Map */}
-          <div className="w-full rounded-lg border overflow-hidden mb-4">
-            <iframe 
-              src="https://www.google.com/maps/d/embed?mid=1JsYZBSpPsdVCcZTBCzlBPXQb35JVK8fA&ehbc=2E312F" 
-              width="100%" 
-              height="480" 
-              title="Louth Conservation Area Map"
-              className="w-full"
-            ></iframe>
-          </div>
           
           <div className="flex items-center">
             <a 
