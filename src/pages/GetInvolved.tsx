@@ -5,7 +5,8 @@ import Hero from '../components/Hero';
 import Section from '../components/Section';
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { Users, HandCoins, Mail, Calendar } from "lucide-react";
+import { Users, HandCoins, Mail, Calendar, FileText } from "lucide-react";
+import membershipForm from '../assets/membership-form.pdf';
 
 const GetInvolved = () => {
   return (
@@ -79,6 +80,26 @@ const GetInvolved = () => {
               and invitations to Louth Civic Trust events and automatically gain membership 
               to the national organisation Civic Voice.
             </p>
+          </div>
+          
+          <div className="flex items-center space-x-3 mt-6">
+            <FileText className="text-lct-blue" />
+            <p>
+              Download our membership form below and return it to us to join the Trust.
+            </p>
+          </div>
+          
+          <div className="mt-4">
+            <Button 
+              variant="default"
+              className="flex items-center gap-2"
+              asChild
+            >
+              <a href={membershipForm} download="Louth-Civic-Trust-Membership-Form.pdf">
+                <FileText size={18} />
+                Download Membership Form
+              </a>
+            </Button>
           </div>
           
           <div className="flex items-center space-x-3 mt-6">
