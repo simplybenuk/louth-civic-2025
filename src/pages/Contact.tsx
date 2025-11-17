@@ -27,7 +27,7 @@ const Contact = () => {
               className="flex items-center gap-2"
               asChild
             >
-              <a href="mailto:info@louthcivictrust.org">
+              <a href="mailto:louthcivictrust@gmail.com">
                 <Mail size={18} />
                 <span>Email Us</span>
               </a>

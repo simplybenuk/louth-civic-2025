@@ -86,7 +86,7 @@ const Privacy = () => {
           
           <h3 className="text-xl font-bold mt-6 mb-3">Your contact information</h3>
           <p>
-            If you have any questions about this Privacy Policy, please contact us via email at <a href="mailto:info@louthcivictrust.org" className="text-lct-blue hover:underline">info@louthcivictrust.org</a>.
+            If you have any questions about this Privacy Policy, please contact us via email at <a href="mailto:louthcivictrust@gmail.com" className="text-lct-blue hover:underline">louthcivictrust@gmail.com</a>.
           </p>
           
           <h3 className="text-xl font-bold mt-6 mb-3">Additional information</h3>

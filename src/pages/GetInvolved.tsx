@@ -121,7 +121,7 @@ const GetInvolved = () => {
               variant="default"
               asChild
             >
-              <a href="mailto:info@louthcivictrust.org?subject=FAO%20Membership%20Secretary">
+              <a href="mailto:louthcivictrust@gmail.com?subject=FAO%20Membership%20Secretary">
                 Contact Membership Secretary
               </a>
             </Button>
@@ -147,7 +147,7 @@ const GetInvolved = () => {
               variant="default"
               asChild
             >
-              <a href="mailto:info@louthcivictrust.org?subject=FAO%20Chairman">
+              <a href="mailto:louthcivictrust@gmail.com?subject=FAO%20Chairman">
                 Contact the Chairman
               </a>
             </Button>
