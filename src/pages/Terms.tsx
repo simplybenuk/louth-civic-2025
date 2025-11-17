@@ -94,7 +94,7 @@ const Terms = () => {
           </p>
           
           <p>
-            If you are among the organisations listed in paragraph 2 above and are interested in linking to our website, you must notify us by sending an e-mail to info@louthcivictrust.org. Please include your name, your organisation name, contact information (such as a phone number and/or e-mail address) as well as the URL of your site, a list of any URLs from which you intend to link to our Web site, and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.
+            If you are among the organisations listed in paragraph 2 above and are interested in linking to our website, you must notify us by sending an e-mail to louthcivictrust@gmail.com. Please include your name, your organisation name, contact information (such as a phone number and/or e-mail address) as well as the URL of your site, a list of any URLs from which you intend to link to our Web site, and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.
           </p>
           
           <p>Approved organizations may hyperlink to our Web site as follows:</p>
@@ -152,7 +152,7 @@ const Terms = () => {
           
           <h3 className="text-xl font-bold mt-6 mb-3">Credit & Contact Information</h3>
           <p>
-            This Terms and conditions page was created at termsandconditionstemplate.com generator. If you have any queries regarding any of our terms, please <a href="mailto:info@louthcivictrust.org" className="text-lct-blue hover:underline">contact us</a>.
+            This Terms and conditions page was created at termsandconditionstemplate.com generator. If you have any queries regarding any of our terms, please <a href="mailto:louthcivictrust@gmail.com" className="text-lct-blue hover:underline">contact us</a>.
           </p>
         </div>
       </Section>
